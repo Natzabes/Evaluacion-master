@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #414f75;
+    font-family: "Barriecito", system-ui;
+    margin: 5%;
+    line-height: 1,6;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(41, 43, 41, 0.199);
+}
+
+header{
+    text-align: center;
+    color: rgb(189, 193, 226);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(https://images.unsplash.com/photo-1636887902905-b3b696d5afc2?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 10px solid #a2b6c5;
+    box-shadow: 0px 0px 10px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+    font-size: 1,2em;
+    opacity: 0,7;
+}
+
+.Container{
+    background-color: rgb(19, 24, 31);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.Conteiner_foto_de_perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #a2b5c4;
+    margin: 5%;
+    box-shadow: 0px 0px 20px #bdc1ca(0,0,0,0,5);
+}
+
+.Conteiner_foto_de_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Cabecera{
+    position: relative;
+}
+
+.Nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px #53686e;
+}
+
+h3{
+    font-size: 1,4em;
+    margin: 20px;
+    color: rgb(131, 33, 38);
+}
+
+section{
+    background-color: rgba(61, 76, 92, 0.103);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: #262829;
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: #cbce10;
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+address p{
+    margin: 5px 0;
+}
+
+address a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+i{
+    color: #8b1d1d;
+    margin-right: 8px;
+}
+
+article{
+    margin-bottom: 15px;
+}
